@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 97%;
+    --foreground: 224 30% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 224 30% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 30% 12%;
+
+    --primary: 250 85% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 14% 92%;
+    --secondary-foreground: 224 30% 12%;
+
+    --muted: 220 14% 95%;
+    --muted-foreground: 220 10% 46%;
+
+    --accent: 190 90% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 90%;
+    --input: 220 13% 90%;
+    --ring: 250 85% 60%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 224 30% 12%;
+    --sidebar-primary: 250 85% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 14% 95%;
+    --sidebar-accent-foreground: 224 30% 12%;
+    --sidebar-border: 220 13% 90%;
+    --sidebar-ring: 250 85% 60%;
+
+    --gradient-start: 280 80% 55%;
+    --gradient-mid: 250 85% 60%;
+    --gradient-end: 190 90% 50%;
+    --surface-elevated: 0 0% 100%;
+    --code-bg: 224 30% 8%;
+    --code-foreground: 210 40% 90%;
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+  }
+
+  .dark {
+    --background: 228 25% 5%;
+    --foreground: 220 30% 94%;
+
+    --card: 228 22% 8%;
+    --card-foreground: 220 30% 94%;
+
+    --popover: 228 22% 8%;
+    --popover-foreground: 220 30% 94%;
+
+    --primary: 250 85% 65%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 228 18% 13%;
+    --secondary-foreground: 220 30% 94%;
+
+    --muted: 228 18% 12%;
+    --muted-foreground: 218 15% 50%;
+
+    --accent: 190 90% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 228 14% 14%;
+    --input: 228 14% 14%;
+    --ring: 250 85% 65%;
+
+    --sidebar-background: 228 25% 6%;
+    --sidebar-foreground: 220 30% 94%;
+    --sidebar-primary: 250 85% 65%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 228 18% 11%;
+    --sidebar-accent-foreground: 220 30% 94%;
+    --sidebar-border: 228 14% 12%;
+    --sidebar-ring: 250 85% 65%;
+
+    --gradient-start: 280 80% 60%;
+    --gradient-mid: 250 85% 65%;
+    --gradient-end: 190 90% 50%;
+    --surface-elevated: 228 22% 9%;
+    --code-bg: 228 30% 4%;
+    --code-foreground: 210 40% 90%;
+    --success: 142 76% 42%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  code,
+  pre,
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@layer utilities {
+
+  /* ---------- Gradient utilities ---------- */
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg,
+        hsl(var(--gradient-start)),
+        hsl(var(--gradient-mid)),
+        hsl(var(--gradient-end)));
+  }
+
+  .gradient-bg {
+    background-image: linear-gradient(135deg,
+        hsl(var(--gradient-start)),
+        hsl(var(--gradient-mid)),
+        hsl(var(--gradient-end)));
+  }
+
+  .gradient-border {
+    position: relative;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+  }
+
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    background: linear-gradient(135deg,
+        hsl(var(--gradient-start)),
+        hsl(var(--gradient-mid)),
+        hsl(var(--gradient-end)));
+    z-index: -1;
+  }
+
+  /* ---------- Animated gradient ---------- */
+  .gradient-animated {
+    background: linear-gradient(-45deg,
+        hsl(var(--gradient-start)),
+        hsl(var(--gradient-mid)),
+        hsl(var(--gradient-end)),
+        hsl(var(--gradient-start)));
+    background-size: 300% 300%;
+    animation: gradient-flow 8s ease infinite;
+  }
+
+  @keyframes gradient-flow {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  /* ---------- Glass / surface ---------- */
+  .glass {
+    @apply backdrop-blur-xl border border-border/50;
+    background: hsla(var(--card), 0.6);
+  }
+
+  .glass-strong {
+    @apply backdrop-blur-2xl border border-border/40;
+    background: hsla(var(--card), 0.75);
+  }
+
+  .surface-elevated {
+    background-color: hsl(var(--surface-elevated));
+  }
+
+  /* ---------- Glow ---------- */
+  .glow {
+    box-shadow:
+      0 0 50px -14px hsl(var(--primary) / 0.45),
+      0 0 20px -6px hsl(var(--gradient-start) / 0.2);
+  }
+
+  .glow-sm {
+    box-shadow: 0 0 25px -8px hsl(var(--primary) / 0.3);
+  }
+
+  .glow-accent {
+    box-shadow:
+      0 0 40px -10px hsl(var(--gradient-end) / 0.35),
+      0 0 80px -20px hsl(var(--gradient-mid) / 0.15);
+  }
+
+  /* ---------- Shimmer ---------- */
+  .shimmer {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .shimmer::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(105deg,
+        transparent 40%,
+        hsla(0, 0%, 100%, 0.04) 45%,
+        hsla(0, 0%, 100%, 0.08) 50%,
+        hsla(0, 0%, 100%, 0.04) 55%,
+        transparent 60%);
+    background-size: 200% 100%;
+    animation: shimmer-move 3s ease-in-out infinite;
+    pointer-events: none;
+  }
+
+  @keyframes shimmer-move {
+    0% {
+      background-position: 200% 0;
+    }
+
+    100% {
+      background-position: -200% 0;
+    }
+  }
+
+  /* ---------- Floating dots / orbs BG ---------- */
+  .orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.25;
+    pointer-events: none;
+  }
+
+  /* ---------- Smooth card hover ---------- */
+  .card-hover {
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-3px);
+    box-shadow:
+      0 12px 40px -10px hsl(var(--primary) / 0.15),
+      0 4px 16px -4px hsl(var(--gradient-start) / 0.1);
+    border-color: hsl(var(--primary) / 0.3);
+  }
+
+  /* ---------- Focus ring ---------- */
+  .focus-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background;
+  }
+}

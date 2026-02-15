@@ -742,3 +742,91 @@
 {"level":"info","message":"Socket connected: QHpBrtkODLW9CpOaAAAB (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 09:54:34"}
 {"level":"debug","message":"Socket disconnected","socketId":"QHpBrtkODLW9CpOaAAAB","timestamp":"2026-02-15 09:54:50","userId":"69909b2d3626de25496815c9"}
 {"level":"info","message":"Socket connected: eXgassw5PyElOrvRAAAD (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 09:55:12"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 10:02:12"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 10:02:12"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 10:02:14"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 10:02:14"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 10:02:14"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 10:02:14"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 10:02:14"}
+{"level":"info","message":"Socket connected: kf-bqZJah4yac3ljAAAB (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:02:14"}
+{"level":"debug","message":"Socket disconnected","socketId":"kf-bqZJah4yac3ljAAAB","timestamp":"2026-02-15 10:02:14","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: -qu0hg3ARSlb6SAtAAAD (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:02:15"}
+{"level":"info","message":"Socket connected: XfZjL3GPuhprkyIWAAAF (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:22:20"}
+{"level":"debug","message":"Socket disconnected","socketId":"XfZjL3GPuhprkyIWAAAF","timestamp":"2026-02-15 10:22:21","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: 1I7oofB9cqfdwG93AAAH (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:24:04"}
+{"level":"debug","message":"Socket disconnected","socketId":"-qu0hg3ARSlb6SAtAAAD","timestamp":"2026-02-15 10:26:19","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"1I7oofB9cqfdwG93AAAH","timestamp":"2026-02-15 10:26:19","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: UhjT2KvWcMwTF_0KAAAK (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:26:19"}
+{"level":"info","message":"Socket connected: WtOjFpKQ2zEM9_0OAAAL (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:26:19"}
+{"level":"debug","message":"Socket disconnected","socketId":"WtOjFpKQ2zEM9_0OAAAL","timestamp":"2026-02-15 10:26:35","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: 3p_ApfWM2t1m0UhJAAAN (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:26:35"}
+{"level":"debug","message":"Socket disconnected","socketId":"UhjT2KvWcMwTF_0KAAAK","timestamp":"2026-02-15 10:26:36","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: opYvZx4mSjiSFUnGAAAP (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:26:36"}
+{"level":"debug","message":"Socket disconnected","socketId":"opYvZx4mSjiSFUnGAAAP","timestamp":"2026-02-15 10:26:57","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"3p_ApfWM2t1m0UhJAAAN","timestamp":"2026-02-15 10:26:57","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: sBQJrfduZTtrVn2EAAAR (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:26:57"}
+{"level":"info","message":"Socket connected: y1WkYsqsi9BKIrT7AAAT (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:26:57"}
+{"level":"debug","message":"Socket disconnected","socketId":"y1WkYsqsi9BKIrT7AAAT","timestamp":"2026-02-15 10:27:14","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: y8q3fpC3rynIuflmAAAV (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:27:15"}
+{"level":"debug","message":"Socket disconnected","socketId":"y8q3fpC3rynIuflmAAAV","timestamp":"2026-02-15 10:28:35","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"sBQJrfduZTtrVn2EAAAR","timestamp":"2026-02-15 10:28:36","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: vvj5SThlacOZQfBpAAAY (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:28:42"}
+{"level":"info","message":"Socket connected: qnXlCeBmTmRMVVe9AAAZ (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:28:42"}
+{"level":"debug","message":"Socket disconnected","socketId":"qnXlCeBmTmRMVVe9AAAZ","timestamp":"2026-02-15 10:29:09","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"vvj5SThlacOZQfBpAAAY","timestamp":"2026-02-15 10:29:09","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: NoITz89DsXt5lREYAAAc (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:29:09"}
+{"level":"info","message":"Socket connected: LBJYUSLz6kPK9PvIAAAd (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:29:09"}
+{"level":"debug","message":"Socket disconnected","socketId":"LBJYUSLz6kPK9PvIAAAd","timestamp":"2026-02-15 10:29:19","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"NoITz89DsXt5lREYAAAc","timestamp":"2026-02-15 10:29:19","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: ER2KeLVqanVa66vwAAAg (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:29:19"}
+{"level":"info","message":"Socket connected: LC_2MxGtU560q4isAAAh (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:29:19"}
+{"level":"debug","message":"Socket disconnected","socketId":"ER2KeLVqanVa66vwAAAg","timestamp":"2026-02-15 10:29:25","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"LC_2MxGtU560q4isAAAh","timestamp":"2026-02-15 10:29:25","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: ag4PZsNTglZFVaYrAAAk (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:29:25"}
+{"level":"info","message":"Socket connected: NILapbOKGUfQvMPqAAAl (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:29:25"}
+{"level":"debug","message":"Socket disconnected","socketId":"NILapbOKGUfQvMPqAAAl","timestamp":"2026-02-15 10:29:31","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: N9ENC43Yt2du-AzqAAAn (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:29:31"}
+{"level":"debug","message":"Socket disconnected","socketId":"ag4PZsNTglZFVaYrAAAk","timestamp":"2026-02-15 10:29:32","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: p-Hjz2kYGJ0gEerwAAAp (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:29:32"}
+{"level":"debug","message":"Socket disconnected","socketId":"p-Hjz2kYGJ0gEerwAAAp","timestamp":"2026-02-15 10:29:52","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"N9ENC43Yt2du-AzqAAAn","timestamp":"2026-02-15 10:29:53","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: cOPb2YTYm1or-8QxAAAs (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:29:53"}
+{"level":"info","message":"Socket connected: qaFa9_8l77GjZEZoAAAt (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:29:53"}
+{"level":"debug","message":"Socket disconnected","socketId":"qaFa9_8l77GjZEZoAAAt","timestamp":"2026-02-15 10:31:17","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: 58wYGVjEll2CQcg5AAAv (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:31:18"}
+{"level":"debug","message":"Socket disconnected","socketId":"58wYGVjEll2CQcg5AAAv","timestamp":"2026-02-15 10:34:10","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"cOPb2YTYm1or-8QxAAAs","timestamp":"2026-02-15 10:34:10","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: XXv7A8vdLLM1FjJgAAAy (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:34:11"}
+{"level":"info","message":"Socket connected: kPA8pogSbPOGil_yAAAz (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:34:11"}
+{"level":"debug","message":"Socket disconnected","socketId":"XXv7A8vdLLM1FjJgAAAy","timestamp":"2026-02-15 10:34:29","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"kPA8pogSbPOGil_yAAAz","timestamp":"2026-02-15 10:34:29","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: lYrWGcWMSo3zh9MUAAA2 (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:34:29"}
+{"level":"info","message":"Socket connected: c6xeSlB3DOqZh92WAAA3 (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:34:29"}
+{"level":"debug","message":"Socket disconnected","socketId":"c6xeSlB3DOqZh92WAAA3","timestamp":"2026-02-15 10:34:46","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"lYrWGcWMSo3zh9MUAAA2","timestamp":"2026-02-15 10:34:46","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: NQaLLr9fCCuL7Y-1AAA5 (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:34:46"}
+{"level":"info","message":"Socket connected: 5V6d0p_-HTW9gaxeAAA7 (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:34:46"}
+{"level":"debug","message":"Socket disconnected","socketId":"NQaLLr9fCCuL7Y-1AAA5","timestamp":"2026-02-15 10:36:52","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"5V6d0p_-HTW9gaxeAAA7","timestamp":"2026-02-15 10:36:52","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: _64Lz0sIm8pvxUKsAAA- (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:36:52"}
+{"level":"info","message":"Socket connected: ez-1xfwF_5l6sRNCAAA_ (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:36:52"}
+{"level":"debug","message":"Socket disconnected","socketId":"_64Lz0sIm8pvxUKsAAA-","timestamp":"2026-02-15 10:39:22","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"ez-1xfwF_5l6sRNCAAA_","timestamp":"2026-02-15 10:39:22","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: GP2qFlf65VJW4psoAABC (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:39:22"}
+{"level":"info","message":"Socket connected: 4zfuT6A1ITs-8Oq4AABD (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:39:22"}
+{"level":"debug","message":"Socket disconnected","socketId":"GP2qFlf65VJW4psoAABC","timestamp":"2026-02-15 10:40:41","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"4zfuT6A1ITs-8Oq4AABD","timestamp":"2026-02-15 10:40:41","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: XUHj2OPoNFxWzyNjAABG (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:40:41"}
+{"level":"info","message":"Socket connected: Dzi9_uA6SHGnGvVgAABH (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:40:41"}
+{"level":"debug","message":"Socket disconnected","socketId":"Dzi9_uA6SHGnGvVgAABH","timestamp":"2026-02-15 10:40:56","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: lQw8Pl4fDXQkG2NAAABJ (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:40:56"}
+{"level":"debug","message":"Socket disconnected","socketId":"XUHj2OPoNFxWzyNjAABG","timestamp":"2026-02-15 10:40:56","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: R_UFxgdSxSER4p1tAABL (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:40:56"}
+{"level":"debug","message":"Socket disconnected","socketId":"lQw8Pl4fDXQkG2NAAABJ","timestamp":"2026-02-15 10:42:12","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: 4gKjX8nVIT5XJJHYAABN (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:42:15"}
+{"level":"debug","message":"User joined collab room","room":"collab_699105395e8af8c4bb7e5371","timestamp":"2026-02-15 10:42:15","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: N2WRRMmso6QOVtRVAABP (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:42:15"}
+{"level":"debug","message":"Socket disconnected","socketId":"4gKjX8nVIT5XJJHYAABN","timestamp":"2026-02-15 10:42:18","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"N2WRRMmso6QOVtRVAABP","timestamp":"2026-02-15 10:42:18","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: gic5W2h0OAi0jmQZAABR (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 10:42:18"}

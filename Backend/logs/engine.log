@@ -1,0 +1,744 @@
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 00:54:56"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 00:54:58"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 00:54:58"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 00:54:58"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 00:54:58"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 00:54:58"}
+{"level":"info","message":"🔗 Google OAuth callback: http://localhost:5000/api/auth/google/callback","timestamp":"2026-02-15 00:54:58"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 01:02:46"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 01:02:48"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 01:02:48"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 01:02:48"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 01:02:48"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 01:02:48"}
+{"level":"info","message":"🔗 Google OAuth callback: http://localhost:5000/api/auth/google/callback","timestamp":"2026-02-15 01:02:48"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 01:18:10"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 01:18:10"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 01:18:10"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 01:18:10"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 01:18:10"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 01:18:10"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 01:18:10"}
+{"level":"info","message":"Socket connected","socketId":"taqpdIKzcHmqsGVyAAAB","timestamp":"2026-02-15 01:21:59","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Fetching document","timestamp":"2026-02-15 01:22:29","url":"https://expressjs.com/en/guide/using-middleware.html"}
+{"chunks":3,"level":"info","message":"Document chunked","timestamp":"2026-02-15 01:22:30","url":"https://expressjs.com/en/guide/using-middleware.html","version":"latest"}
+{"chunks":3,"docId":"80eae00c-0ffa-43e2-b92e-e92b11637472","level":"info","message":"Document ingestion complete","timestamp":"2026-02-15 01:22:33","url":"https://expressjs.com/en/guide/using-middleware.html"}
+{"level":"debug","message":"Emitted stage","stage":"enhancing_task","timestamp":"2026-02-15 01:22:33","userId":"69909b2d3626de25496815c9"}
+{"language":"javascript","level":"info","message":"Enhancing task","timestamp":"2026-02-15 01:22:33"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 01:22:33"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=757","timestamp":"2026-02-15 01:22:40"}
+{"level":"info","message":"Enhanced task into 3 variations","timestamp":"2026-02-15 01:22:40"}
+{"level":"debug","message":"Emitted stage","stage":"retrieving_docs","timestamp":"2026-02-15 01:22:40","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Emitted stage","stage":"generating_code","timestamp":"2026-02-15 01:22:40","userId":"69909b2d3626de25496815c9"}
+{"language":"javascript","level":"info","message":"Starting parallel code generation","timestamp":"2026-02-15 01:22:40"}
+{"level":"debug","message":"Azure call: model=gpt-4.1-mini attempt=1/3","timestamp":"2026-02-15 01:22:40"}
+{"level":"debug","message":"Azure call: model=gpt-4o attempt=1/3","timestamp":"2026-02-15 01:22:40"}
+{"attempt":1,"error":"404 The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.","level":"error","message":"Azure call failed: model=gpt-4o","status":404,"timestamp":"2026-02-15 01:22:41"}
+{"level":"debug","message":"Azure response: model=gpt-4.1-mini tokens=357","timestamp":"2026-02-15 01:22:42"}
+{"error":"Azure API error (gpt-4o): 404 The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.","level":"error","message":"Alternative generation failed","timestamp":"2026-02-15 01:22:42"}
+{"level":"info","message":"Code generation complete: 1 candidates produced","timestamp":"2026-02-15 01:22:42"}
+{"level":"debug","message":"Emitted stage","stage":"judging","timestamp":"2026-02-15 01:22:42","userId":"69909b2d3626de25496815c9"}
+{"count":1,"level":"info","message":"Judging candidates","timestamp":"2026-02-15 01:22:42"}
+{"level":"debug","message":"Emitted stage","stage":"validating","timestamp":"2026-02-15 01:22:42","userId":"69909b2d3626de25496815c9"}
+{"issueCount":1,"level":"debug","message":"Static analysis complete","score":80,"timestamp":"2026-02-15 01:22:42"}
+{"level":"debug","message":"Azure call: model=gpt-4o attempt=1/3","timestamp":"2026-02-15 01:22:42"}
+{"attempt":1,"error":"404 The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.","level":"error","message":"Azure call failed: model=gpt-4o","status":404,"timestamp":"2026-02-15 01:22:43"}
+{"error":"Azure API error (gpt-4o): 404 The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.","level":"warn","message":"Runtime validation failed","timestamp":"2026-02-15 01:22:43"}
+{"level":"debug","message":"Emitted stage","stage":"security_audit","timestamp":"2026-02-15 01:22:43","userId":"69909b2d3626de25496815c9"}
+{"language":"javascript","level":"info","message":"Running security audit","timestamp":"2026-02-15 01:22:43"}
+{"level":"debug","message":"Azure call: model=o4-mini attempt=1/3","timestamp":"2026-02-15 01:22:43"}
+{"attempt":1,"error":"400 Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.","level":"error","message":"Azure call failed: model=o4-mini","status":400,"timestamp":"2026-02-15 01:22:43"}
+{"error":"Azure API error (o4-mini): 400 Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.","level":"error","message":"Security audit failed","timestamp":"2026-02-15 01:22:43"}
+{"level":"debug","message":"Emitted stage","stage":"scoring","timestamp":"2026-02-15 01:22:43","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Confidence calculated","score":66,"status":"partial","timestamp":"2026-02-15 01:22:43"}
+{"level":"debug","message":"Emitted stage","stage":"finalizing","timestamp":"2026-02-15 01:22:43","userId":"69909b2d3626de25496815c9"}
+{"confidence":66,"generationId":"6990d281da8bc2e710e8716c","level":"info","message":"Pipeline complete","status":"partial","timestamp":"2026-02-15 01:22:43"}
+{"language":"javascript","level":"info","message":"Code chat","questionLength":40,"timestamp":"2026-02-15 01:23:05"}
+{"level":"debug","message":"Azure call: model=gpt-4o attempt=1/3","timestamp":"2026-02-15 01:23:05"}
+{"attempt":1,"error":"404 The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.","level":"error","message":"Azure call failed: model=gpt-4o","status":404,"timestamp":"2026-02-15 01:23:06"}
+{"error":"Azure API error (gpt-4o): 404 The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.","level":"error","message":"Chat endpoint error","timestamp":"2026-02-15 01:23:06"}
+{"level":"debug","message":"Socket disconnected","socketId":"taqpdIKzcHmqsGVyAAAB","timestamp":"2026-02-15 01:24:18","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"JWx6tJlQsRIgWRJ5AAAD","timestamp":"2026-02-15 01:24:35","userId":"69909b2d3626de25496815c9"}
+{"language":"javascript","level":"info","message":"Code chat","questionLength":40,"timestamp":"2026-02-15 01:25:12"}
+{"level":"debug","message":"Azure call: model=gpt-4o attempt=1/3","timestamp":"2026-02-15 01:25:12"}
+{"attempt":1,"error":"404 The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.","level":"error","message":"Azure call failed: model=gpt-4o","status":404,"timestamp":"2026-02-15 01:25:13"}
+{"error":"Azure API error (gpt-4o): 404 The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.","level":"error","message":"Chat endpoint error","timestamp":"2026-02-15 01:25:13"}
+{"level":"debug","message":"Socket disconnected","socketId":"JWx6tJlQsRIgWRJ5AAAD","timestamp":"2026-02-15 01:25:38","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"GRP9WDrjhgdQmlkgAAAF","timestamp":"2026-02-15 01:25:47","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"GRP9WDrjhgdQmlkgAAAF","timestamp":"2026-02-15 01:25:56","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"PxSRGkMR6dzoMjIcAAAH","timestamp":"2026-02-15 01:25:57","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"PxSRGkMR6dzoMjIcAAAH","timestamp":"2026-02-15 01:25:59","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"T0XbcSbqYm6I4y7AAAAJ","timestamp":"2026-02-15 01:26:04","userId":"69909b2d3626de25496815c9"}
+{"language":"typescript","level":"info","message":"Enhancing task","timestamp":"2026-02-15 01:26:26"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 01:26:26"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=778","timestamp":"2026-02-15 01:26:35"}
+{"level":"info","message":"Enhanced task into 3 variations","timestamp":"2026-02-15 01:26:35"}
+{"chunks":3,"level":"info","message":"Document already cached, skipping ingestion","timestamp":"2026-02-15 01:26:53","url":"https://expressjs.com/en/guide/using-middleware.html"}
+{"level":"debug","message":"Emitted stage","stage":"enhancing_task","timestamp":"2026-02-15 01:26:53","userId":"69909b2d3626de25496815c9"}
+{"language":"javascript","level":"info","message":"Enhancing task","timestamp":"2026-02-15 01:26:53"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 01:26:53"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=716","timestamp":"2026-02-15 01:27:00"}
+{"level":"info","message":"Enhanced task into 3 variations","timestamp":"2026-02-15 01:27:00"}
+{"level":"debug","message":"Emitted stage","stage":"retrieving_docs","timestamp":"2026-02-15 01:27:00","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Emitted stage","stage":"generating_code","timestamp":"2026-02-15 01:27:00","userId":"69909b2d3626de25496815c9"}
+{"language":"javascript","level":"info","message":"Starting parallel code generation","timestamp":"2026-02-15 01:27:00"}
+{"level":"debug","message":"Azure call: model=gpt-4.1-mini attempt=1/3","timestamp":"2026-02-15 01:27:00"}
+{"level":"debug","message":"Azure call: model=gpt-4o attempt=1/3","timestamp":"2026-02-15 01:27:00"}
+{"attempt":1,"error":"404 The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.","level":"error","message":"Azure call failed: model=gpt-4o","status":404,"timestamp":"2026-02-15 01:27:02"}
+{"level":"debug","message":"Azure response: model=gpt-4.1-mini tokens=358","timestamp":"2026-02-15 01:27:03"}
+{"error":"Azure API error (gpt-4o): 404 The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.","level":"error","message":"Alternative generation failed","timestamp":"2026-02-15 01:27:03"}
+{"level":"info","message":"Code generation complete: 1 candidates produced","timestamp":"2026-02-15 01:27:03"}
+{"level":"debug","message":"Emitted stage","stage":"judging","timestamp":"2026-02-15 01:27:03","userId":"69909b2d3626de25496815c9"}
+{"count":1,"level":"info","message":"Judging candidates","timestamp":"2026-02-15 01:27:03"}
+{"level":"debug","message":"Emitted stage","stage":"validating","timestamp":"2026-02-15 01:27:03","userId":"69909b2d3626de25496815c9"}
+{"issueCount":1,"level":"debug","message":"Static analysis complete","score":80,"timestamp":"2026-02-15 01:27:03"}
+{"level":"debug","message":"Azure call: model=gpt-4o attempt=1/3","timestamp":"2026-02-15 01:27:03"}
+{"attempt":1,"error":"404 The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.","level":"error","message":"Azure call failed: model=gpt-4o","status":404,"timestamp":"2026-02-15 01:27:04"}
+{"error":"Azure API error (gpt-4o): 404 The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.","level":"warn","message":"Runtime validation failed","timestamp":"2026-02-15 01:27:04"}
+{"level":"debug","message":"Emitted stage","stage":"security_audit","timestamp":"2026-02-15 01:27:04","userId":"69909b2d3626de25496815c9"}
+{"language":"javascript","level":"info","message":"Running security audit","timestamp":"2026-02-15 01:27:04"}
+{"level":"debug","message":"Azure call: model=o4-mini attempt=1/3","timestamp":"2026-02-15 01:27:04"}
+{"attempt":1,"error":"400 Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.","level":"error","message":"Azure call failed: model=o4-mini","status":400,"timestamp":"2026-02-15 01:27:04"}
+{"error":"Azure API error (o4-mini): 400 Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.","level":"error","message":"Security audit failed","timestamp":"2026-02-15 01:27:04"}
+{"level":"debug","message":"Emitted stage","stage":"scoring","timestamp":"2026-02-15 01:27:04","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Confidence calculated","score":66,"status":"partial","timestamp":"2026-02-15 01:27:04"}
+{"level":"debug","message":"Emitted stage","stage":"finalizing","timestamp":"2026-02-15 01:27:04","userId":"69909b2d3626de25496815c9"}
+{"confidence":66,"generationId":"6990d385da8bc2e710e871a4","level":"info","message":"Pipeline complete","status":"partial","timestamp":"2026-02-15 01:27:04"}
+{"language":"javascript","level":"info","message":"Code chat","questionLength":36,"timestamp":"2026-02-15 01:27:26"}
+{"level":"debug","message":"Azure call: model=gpt-4o attempt=1/3","timestamp":"2026-02-15 01:27:26"}
+{"attempt":1,"error":"404 The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.","level":"error","message":"Azure call failed: model=gpt-4o","status":404,"timestamp":"2026-02-15 01:27:28"}
+{"error":"Azure API error (gpt-4o): 404 The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.","level":"error","message":"Chat endpoint error","timestamp":"2026-02-15 01:27:28"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 01:30:06"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 01:30:06"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 01:30:09"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 01:30:09"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 01:30:09"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 01:30:09"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 01:30:09"}
+{"level":"info","message":"Socket connected","socketId":"sQFb-pTMIARxKLz6AAAB","timestamp":"2026-02-15 01:30:09","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"sQFb-pTMIARxKLz6AAAB","timestamp":"2026-02-15 01:30:17","userId":"69909b2d3626de25496815c9"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 01:30:21"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 01:30:21"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 01:30:23"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 01:30:23"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 01:30:23"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 01:30:23"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 01:30:23"}
+{"level":"info","message":"Socket connected","socketId":"3Sb7IP4NoL9rTlbNAAAB","timestamp":"2026-02-15 01:30:30","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"3Sb7IP4NoL9rTlbNAAAB","timestamp":"2026-02-15 01:32:03","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"5WIJVNIP3M1yl20MAAAD","timestamp":"2026-02-15 01:32:03","userId":"69909b2d3626de25496815c9"}
+{"chunks":3,"level":"info","message":"Document already cached, skipping ingestion","timestamp":"2026-02-15 01:34:32","url":"https://expressjs.com/en/guide/using-middleware.html"}
+{"level":"debug","message":"Emitted stage","stage":"enhancing_task","timestamp":"2026-02-15 01:34:32","userId":"69909b2d3626de25496815c9"}
+{"language":"javascript","level":"info","message":"Enhancing task","timestamp":"2026-02-15 01:34:32"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 01:34:32"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=745","timestamp":"2026-02-15 01:34:39"}
+{"level":"info","message":"Enhanced task into 3 variations","timestamp":"2026-02-15 01:34:39"}
+{"level":"debug","message":"Emitted stage","stage":"retrieving_docs","timestamp":"2026-02-15 01:34:39","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Emitted stage","stage":"generating_code","timestamp":"2026-02-15 01:34:39","userId":"69909b2d3626de25496815c9"}
+{"language":"javascript","level":"info","message":"Starting parallel code generation","timestamp":"2026-02-15 01:34:39"}
+{"level":"debug","message":"Azure call: model=gpt-4.1-mini attempt=1/3","timestamp":"2026-02-15 01:34:39"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 01:34:39"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=313","timestamp":"2026-02-15 01:34:42"}
+{"level":"debug","message":"Azure response: model=gpt-4.1-mini tokens=372","timestamp":"2026-02-15 01:34:43"}
+{"level":"info","message":"Code generation complete: 2 candidates produced","timestamp":"2026-02-15 01:34:43"}
+{"level":"debug","message":"Emitted stage","stage":"judging","timestamp":"2026-02-15 01:34:43","userId":"69909b2d3626de25496815c9"}
+{"count":2,"level":"info","message":"Judging candidates","timestamp":"2026-02-15 01:34:43"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 01:34:43"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=817","timestamp":"2026-02-15 01:34:45"}
+{"level":"info","message":"Judge decided","selectedIndex":0,"timestamp":"2026-02-15 01:34:45","winnerScore":86.25}
+{"level":"debug","message":"Emitted stage","stage":"validating","timestamp":"2026-02-15 01:34:45","userId":"69909b2d3626de25496815c9"}
+{"issueCount":1,"level":"debug","message":"Static analysis complete","score":80,"timestamp":"2026-02-15 01:34:45"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 01:34:45"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=337","timestamp":"2026-02-15 01:34:46"}
+{"error":null,"level":"debug","message":"Runtime validation complete","score":95,"timestamp":"2026-02-15 01:34:46"}
+{"level":"debug","message":"Emitted stage","stage":"security_audit","timestamp":"2026-02-15 01:34:46","userId":"69909b2d3626de25496815c9"}
+{"language":"javascript","level":"info","message":"Running security audit","timestamp":"2026-02-15 01:34:46"}
+{"level":"debug","message":"Azure call: model=o4-mini attempt=1/3","timestamp":"2026-02-15 01:34:46"}
+{"level":"debug","message":"Azure response: model=o4-mini tokens=983","timestamp":"2026-02-15 01:34:56"}
+{"findings":1,"level":"info","message":"Security audit complete","risk":"low","score":90,"timestamp":"2026-02-15 01:34:56"}
+{"level":"debug","message":"Emitted stage","stage":"scoring","timestamp":"2026-02-15 01:34:56","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Confidence calculated","score":84,"status":"verified","timestamp":"2026-02-15 01:34:56"}
+{"level":"debug","message":"Emitted stage","stage":"finalizing","timestamp":"2026-02-15 01:34:56","userId":"69909b2d3626de25496815c9"}
+{"confidence":84,"generationId":"6990d550ea378ac897e0b2e1","level":"info","message":"Pipeline complete","status":"verified","timestamp":"2026-02-15 01:34:57"}
+{"language":"javascript","level":"info","message":"Code chat","questionLength":31,"timestamp":"2026-02-15 01:35:32"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 01:35:32"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=411","timestamp":"2026-02-15 01:35:35"}
+{"level":"debug","message":"Code chat response generated","timestamp":"2026-02-15 01:35:35"}
+{"level":"debug","message":"Socket disconnected","socketId":"5WIJVNIP3M1yl20MAAAD","timestamp":"2026-02-15 01:35:47","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"jHXQyc2cd4qHasf6AAAF","timestamp":"2026-02-15 01:36:13","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"jHXQyc2cd4qHasf6AAAF","timestamp":"2026-02-15 01:36:24","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"7ZhuqoW6lymXCmxnAAAH","timestamp":"2026-02-15 01:37:11","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"7ZhuqoW6lymXCmxnAAAH","timestamp":"2026-02-15 01:39:28","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"bHy4gadbFl2_TfvGAAAJ","timestamp":"2026-02-15 01:39:39","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"bHy4gadbFl2_TfvGAAAJ","timestamp":"2026-02-15 01:40:06","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"NNuq-JKTfbTq01uLAAAL","timestamp":"2026-02-15 01:40:08","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"NNuq-JKTfbTq01uLAAAL","timestamp":"2026-02-15 01:40:14","userId":"69909b2d3626de25496815c9"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 01:44:52"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 01:44:52"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 01:45:08"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 01:45:08"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 01:45:08"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 01:45:08"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 01:45:08"}
+{"level":"info","message":"Node intelligence call","mode":"explain","nodeId":"import_0","nodeType":"import","timestamp":"2026-02-15 01:52:55"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 01:52:55"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=580","timestamp":"2026-02-15 01:53:00"}
+{"level":"info","message":"Node insight cached","mode":"explain","nodeId":"import_0","timestamp":"2026-02-15 01:53:00"}
+{"level":"info","message":"Socket connected","socketId":"dlMPj-kKu-eqxsE8AAAB","timestamp":"2026-02-15 01:53:12","userId":"69909b2d3626de25496815c9"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 02:05:38"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 02:05:38"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 02:05:39"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 02:05:39"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 02:05:39"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 02:05:39"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 02:05:39"}
+{"level":"info","message":"Socket connected","socketId":"BPlwouxmtKCGIZyMAAAB","timestamp":"2026-02-15 02:05:39","userId":"69909b2d3626de25496815c9"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 02:06:02"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 02:06:02"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 02:06:07"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 02:06:07"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 02:06:07"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 02:06:07"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 02:06:07"}
+{"level":"info","message":"Socket connected","socketId":"CZBWyZREbsy1wH2WAAAB","timestamp":"2026-02-15 02:06:07","userId":"69909b2d3626de25496815c9"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 02:06:47"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 02:06:47"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 02:06:53"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 02:06:53"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 02:06:53"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 02:06:53"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 02:06:53"}
+{"level":"info","message":"Socket connected","socketId":"X8UTRn7IdXX4PTY9AAAB","timestamp":"2026-02-15 02:06:53","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"X8UTRn7IdXX4PTY9AAAB","timestamp":"2026-02-15 02:08:25","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"O8551bJ6PxE-Hi_4AAAD","timestamp":"2026-02-15 02:08:25","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"O8551bJ6PxE-Hi_4AAAD","timestamp":"2026-02-15 02:09:00","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"KxLLOHQD7mIAhceNAAAF","timestamp":"2026-02-15 02:09:00","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"KxLLOHQD7mIAhceNAAAF","timestamp":"2026-02-15 02:09:00","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"asUiTTyvGDEJ425XAAAH","timestamp":"2026-02-15 02:09:03","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"asUiTTyvGDEJ425XAAAH","timestamp":"2026-02-15 02:10:03","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"NbtaFNVxTzRFNm0bAAAJ","timestamp":"2026-02-15 02:10:20","userId":"69909b2d3626de25496815c9"}
+{"chunks":3,"level":"info","message":"Document already cached, skipping ingestion","timestamp":"2026-02-15 02:21:31","url":"https://expressjs.com/en/guide/using-middleware.html"}
+{"level":"debug","message":"Emitted stage","stage":"enhancing_task","timestamp":"2026-02-15 02:21:32","userId":"69909b2d3626de25496815c9"}
+{"language":"javascript","level":"info","message":"Enhancing task","timestamp":"2026-02-15 02:21:32"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 02:21:32"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=954","timestamp":"2026-02-15 02:21:46"}
+{"level":"info","message":"Enhanced task into 3 variations","timestamp":"2026-02-15 02:21:46"}
+{"level":"debug","message":"Emitted stage","stage":"retrieving_docs","timestamp":"2026-02-15 02:21:46","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Emitted stage","stage":"generating_code","timestamp":"2026-02-15 02:21:46","userId":"69909b2d3626de25496815c9"}
+{"language":"javascript","level":"info","message":"Starting parallel code generation","timestamp":"2026-02-15 02:21:46"}
+{"level":"debug","message":"Azure call: model=gpt-4.1-mini attempt=1/3","timestamp":"2026-02-15 02:21:46"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 02:21:46"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=588","timestamp":"2026-02-15 02:21:50"}
+{"level":"debug","message":"Azure response: model=gpt-4.1-mini tokens=676","timestamp":"2026-02-15 02:21:52"}
+{"level":"info","message":"Code generation complete: 2 candidates produced","timestamp":"2026-02-15 02:21:52"}
+{"level":"debug","message":"Emitted stage","stage":"judging","timestamp":"2026-02-15 02:21:52","userId":"69909b2d3626de25496815c9"}
+{"count":2,"level":"info","message":"Judging candidates","timestamp":"2026-02-15 02:21:52"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 02:21:52"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=1390","timestamp":"2026-02-15 02:21:55"}
+{"level":"info","message":"Judge decided","selectedIndex":0,"timestamp":"2026-02-15 02:21:55","winnerScore":360}
+{"level":"debug","message":"Emitted stage","stage":"validating","timestamp":"2026-02-15 02:21:55","userId":"69909b2d3626de25496815c9"}
+{"issueCount":3,"level":"debug","message":"Static analysis complete","score":72,"timestamp":"2026-02-15 02:21:55"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 02:21:55"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=641","timestamp":"2026-02-15 02:21:56"}
+{"error":null,"level":"debug","message":"Runtime validation complete","score":95,"timestamp":"2026-02-15 02:21:56"}
+{"level":"debug","message":"Emitted stage","stage":"security_audit","timestamp":"2026-02-15 02:21:56","userId":"69909b2d3626de25496815c9"}
+{"language":"javascript","level":"info","message":"Running security audit","timestamp":"2026-02-15 02:21:56"}
+{"level":"debug","message":"Azure call: model=o4-mini attempt=1/3","timestamp":"2026-02-15 02:21:56"}
+{"level":"debug","message":"Azure response: model=o4-mini tokens=2534","timestamp":"2026-02-15 02:22:09"}
+{"findings":4,"level":"info","message":"Security audit complete","risk":"low","score":88,"timestamp":"2026-02-15 02:22:09"}
+{"level":"debug","message":"Emitted stage","stage":"trace_mapping","timestamp":"2026-02-15 02:22:09","userId":"69909b2d3626de25496815c9"}
+{"codeBlocks":10,"docChunks":3,"level":"info","mappings":9,"message":"Trace mapping complete","timestamp":"2026-02-15 02:22:16"}
+{"level":"debug","message":"Emitted stage","stage":"scoring","timestamp":"2026-02-15 02:22:16","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Confidence calculated","score":192,"status":"verified","timestamp":"2026-02-15 02:22:16"}
+{"level":"debug","message":"Emitted stage","stage":"finalizing","timestamp":"2026-02-15 02:22:16","userId":"69909b2d3626de25496815c9"}
+{"confidence":192,"generationId":"6990e054f3101e3b732c2704","level":"info","message":"Pipeline complete","status":"verified","timestamp":"2026-02-15 02:22:16"}
+{"level":"debug","message":"Socket disconnected","socketId":"NbtaFNVxTzRFNm0bAAAJ","timestamp":"2026-02-15 02:22:31","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"qAK8XFGxGgUZuLJbAAAL","timestamp":"2026-02-15 02:22:41","userId":"69909b2d3626de25496815c9"}
+{"language":"javascript","level":"info","message":"Code chat","questionLength":15,"timestamp":"2026-02-15 02:26:05"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 02:26:05"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=592","timestamp":"2026-02-15 02:26:07"}
+{"level":"debug","message":"Code chat response generated","timestamp":"2026-02-15 02:26:07"}
+{"level":"debug","message":"Socket disconnected","socketId":"qAK8XFGxGgUZuLJbAAAL","timestamp":"2026-02-15 02:26:17","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Node intelligence call","mode":"usage","nodeId":"import_3","nodeType":"import","timestamp":"2026-02-15 02:26:33"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 02:26:33"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=885","timestamp":"2026-02-15 02:26:37"}
+{"level":"info","message":"Node insight cached","mode":"usage","nodeId":"import_3","timestamp":"2026-02-15 02:26:37"}
+{"level":"info","message":"Socket connected","socketId":"e1eHQ6cJvduKlbhuAAAN","timestamp":"2026-02-15 02:26:46","userId":"69909b2d3626de25496815c9"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 02:34:32"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 02:34:32"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 02:34:32"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 02:34:32"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 02:34:32"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 02:34:32"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 02:34:32"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 02:35:33"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 02:35:33"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 02:35:35"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 02:35:35"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 02:35:35"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 02:35:35"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 02:35:35"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 02:36:12"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 02:36:12"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 02:36:14"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 02:36:14"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 02:36:16"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 02:36:16"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 02:36:16"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 02:36:16"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 02:36:16"}
+{"level":"info","message":"Socket connected","socketId":"UZIPhRfrm0Lg-tfcAAAB","timestamp":"2026-02-15 02:37:56","userId":"6990e1f4f3101e3b732c279b"}
+{"level":"debug","message":"Socket disconnected","socketId":"UZIPhRfrm0Lg-tfcAAAB","timestamp":"2026-02-15 02:38:50","userId":"6990e1f4f3101e3b732c279b"}
+{"level":"info","message":"Socket connected","socketId":"vSflO_y_SbIxHczdAAAF","timestamp":"2026-02-15 02:38:50","userId":"6990e1f4f3101e3b732c279b"}
+{"level":"info","message":"Socket connected","socketId":"TsfH0NKTuac8hv3-AAAG","timestamp":"2026-02-15 02:38:50","userId":"6990e1f4f3101e3b732c279b"}
+{"level":"info","message":"Socket connected","socketId":"M-XXslO8do7lgg8KAAAI","timestamp":"2026-02-15 02:38:51","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"x5Uf1A8Om7SmiSyZAAAJ","timestamp":"2026-02-15 02:38:51","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"x5Uf1A8Om7SmiSyZAAAJ","timestamp":"2026-02-15 02:38:57","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"rFvCc1mxGF__ePa4AAAL","timestamp":"2026-02-15 02:38:57","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"Wrr8KBN7ziR94UoyAAAN","timestamp":"2026-02-15 02:40:42","userId":"6990e4d2f169bd9708deb187"}
+{"level":"debug","message":"Socket disconnected","socketId":"M-XXslO8do7lgg8KAAAI","timestamp":"2026-02-15 02:41:06","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"rFvCc1mxGF__ePa4AAAL","timestamp":"2026-02-15 02:41:06","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"XbG22PI5Rk3PFbQSAAAQ","timestamp":"2026-02-15 02:41:07","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"bxqDfdNfpnIKJDIOAAAR","timestamp":"2026-02-15 02:41:07","userId":"69909b2d3626de25496815c9"}
+{"chunks":3,"level":"info","message":"Document already cached, skipping ingestion","timestamp":"2026-02-15 02:41:25","url":"https://expressjs.com/en/guide/using-middleware.html"}
+{"level":"debug","message":"Emitted stage","stage":"enhancing_task","timestamp":"2026-02-15 02:41:25","userId":"69909b2d3626de25496815c9"}
+{"language":"typescript","level":"info","message":"Enhancing task","timestamp":"2026-02-15 02:41:25"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 02:41:26"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=1092","timestamp":"2026-02-15 02:41:35"}
+{"level":"info","message":"Enhanced task into 3 variations","timestamp":"2026-02-15 02:41:35"}
+{"level":"debug","message":"Emitted stage","stage":"retrieving_docs","timestamp":"2026-02-15 02:41:35","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Emitted stage","stage":"generating_code","timestamp":"2026-02-15 02:41:35","userId":"69909b2d3626de25496815c9"}
+{"language":"typescript","level":"info","message":"Starting parallel code generation","timestamp":"2026-02-15 02:41:35"}
+{"level":"debug","message":"Azure call: model=gpt-4.1-mini attempt=1/3","timestamp":"2026-02-15 02:41:35"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 02:41:35"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=638","timestamp":"2026-02-15 02:41:40"}
+{"level":"debug","message":"Azure response: model=gpt-4.1-mini tokens=812","timestamp":"2026-02-15 02:41:42"}
+{"level":"info","message":"Code generation complete: 2 candidates produced","timestamp":"2026-02-15 02:41:42"}
+{"level":"debug","message":"Emitted stage","stage":"judging","timestamp":"2026-02-15 02:41:42","userId":"69909b2d3626de25496815c9"}
+{"count":2,"level":"info","message":"Judging candidates","timestamp":"2026-02-15 02:41:42"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 02:41:42"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=1539","timestamp":"2026-02-15 02:41:47"}
+{"level":"info","message":"Judge decided","selectedIndex":0,"timestamp":"2026-02-15 02:41:47","winnerScore":90}
+{"level":"debug","message":"Emitted stage","stage":"validating","timestamp":"2026-02-15 02:41:47","userId":"69909b2d3626de25496815c9"}
+{"issueCount":2,"level":"debug","message":"Static analysis complete","score":75,"timestamp":"2026-02-15 02:41:47"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 02:41:47"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=776","timestamp":"2026-02-15 02:41:49"}
+{"error":null,"level":"debug","message":"Runtime validation complete","score":95,"timestamp":"2026-02-15 02:41:49"}
+{"level":"debug","message":"Emitted stage","stage":"security_audit","timestamp":"2026-02-15 02:41:49","userId":"69909b2d3626de25496815c9"}
+{"language":"typescript","level":"info","message":"Running security audit","timestamp":"2026-02-15 02:41:49"}
+{"level":"debug","message":"Azure call: model=o4-mini attempt=1/3","timestamp":"2026-02-15 02:41:49"}
+{"level":"debug","message":"Azure response: model=o4-mini tokens=2598","timestamp":"2026-02-15 02:42:04"}
+{"findings":5,"level":"info","message":"Security audit complete","risk":"low","score":85,"timestamp":"2026-02-15 02:42:04"}
+{"level":"debug","message":"Emitted stage","stage":"trace_mapping","timestamp":"2026-02-15 02:42:04","userId":"69909b2d3626de25496815c9"}
+{"codeBlocks":15,"docChunks":3,"level":"info","mappings":11,"message":"Trace mapping complete","timestamp":"2026-02-15 02:42:11"}
+{"level":"debug","message":"Emitted stage","stage":"scoring","timestamp":"2026-02-15 02:42:11","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Confidence calculated","score":85,"status":"verified","timestamp":"2026-02-15 02:42:11"}
+{"level":"debug","message":"Emitted stage","stage":"finalizing","timestamp":"2026-02-15 02:42:11","userId":"69909b2d3626de25496815c9"}
+{"confidence":85,"generationId":"6990e4fdf169bd9708deb198","level":"info","message":"Pipeline complete","status":"verified","timestamp":"2026-02-15 02:42:12"}
+{"level":"debug","message":"Socket disconnected","socketId":"bxqDfdNfpnIKJDIOAAAR","timestamp":"2026-02-15 02:43:24","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"x0Dm-D9lR3lqJNFHAAAT","timestamp":"2026-02-15 02:43:44","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"x0Dm-D9lR3lqJNFHAAAT","timestamp":"2026-02-15 02:43:55","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"3fZ-jOEyIbZG0SukAAAV","timestamp":"2026-02-15 02:44:07","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"3fZ-jOEyIbZG0SukAAAV","timestamp":"2026-02-15 02:44:22","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"uPn1WVh63RYu6pD_AAAX","timestamp":"2026-02-15 02:44:26","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"TsfH0NKTuac8hv3-AAAG","timestamp":"2026-02-15 02:51:37","userId":"6990e1f4f3101e3b732c279b"}
+{"level":"debug","message":"Socket disconnected","socketId":"uPn1WVh63RYu6pD_AAAX","timestamp":"2026-02-15 02:51:37","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"Or50O1CVAeAt8Df4AAAZ","timestamp":"2026-02-15 02:51:37","userId":"6990e1f4f3101e3b732c279b"}
+{"level":"info","message":"Socket connected","socketId":"BvMSWpNJ7xIL_MpWAAAb","timestamp":"2026-02-15 02:51:37","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"BvMSWpNJ7xIL_MpWAAAb","timestamp":"2026-02-15 02:52:25","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"Or50O1CVAeAt8Df4AAAZ","timestamp":"2026-02-15 02:52:25","userId":"6990e1f4f3101e3b732c279b"}
+{"level":"info","message":"Socket connected","socketId":"j30B7Au5zX8eGcWSAAAd","timestamp":"2026-02-15 02:52:25","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"lP5xATWLurAc9N7SAAAf","timestamp":"2026-02-15 02:52:25","userId":"6990e1f4f3101e3b732c279b"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 02:56:30"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 02:56:30"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 02:56:33"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 02:56:33"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 02:56:33"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 02:56:33"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 02:56:33"}
+{"level":"info","message":"Socket connected","socketId":"r9D8DqxigjghOXrQAAAD","timestamp":"2026-02-15 02:56:34","userId":"6990e1f4f3101e3b732c279b"}
+{"level":"info","message":"Socket connected","socketId":"5wv_kM6e7smBz8tJAAAE","timestamp":"2026-02-15 02:56:34","userId":"6990e4d2f169bd9708deb187"}
+{"level":"info","message":"Socket connected","socketId":"OHKJaSb-3ZJMFtvYAAAF","timestamp":"2026-02-15 02:56:34","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"FQR8_CxZ7Y1GppvrAAAH","timestamp":"2026-02-15 02:56:35","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected","socketId":"mZaxyR78_0x1OwQBAAAJ","timestamp":"2026-02-15 02:56:36","userId":"6990e1f4f3101e3b732c279b"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 03:09:31"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 03:09:31"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 03:09:40"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 03:09:40"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 03:09:41"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 03:09:41"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 03:09:41"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 03:09:41"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 03:09:41"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 03:10:04"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 03:10:04"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 03:10:05"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 03:10:05"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 03:10:05"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 03:10:05"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 03:10:05"}
+{"level":"info","message":"Socket connected: QGGyu_5gJLAV-zYKAAAC (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:12:18"}
+{"level":"info","message":"Socket connected: 2ZW3ZHHMpttwoi_-AAAD (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:12:18"}
+{"level":"debug","message":"Socket disconnected","socketId":"2ZW3ZHHMpttwoi_-AAAD","timestamp":"2026-02-15 03:12:19","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"QGGyu_5gJLAV-zYKAAAC","timestamp":"2026-02-15 03:12:23","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: M1FG-dOGTgkJSD7HAAAF (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:12:23"}
+{"level":"info","message":"Socket connected: iE7ICkMki7qz3-iLAAAH (User: 6990e1f4f3101e3b732c279b)","timestamp":"2026-02-15 03:12:23"}
+{"level":"info","message":"Socket connected: EISLC8xFdbseRWTEAAAJ (User: 6990e4d2f169bd9708deb187)","timestamp":"2026-02-15 03:12:23"}
+{"level":"info","message":"Socket connected: pakXtNgd0NmxNGPLAAAL (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:12:28"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 03:14:38"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 03:14:38"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 03:14:39"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 03:14:39"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 03:14:39"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 03:14:39"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 03:14:39"}
+{"level":"info","message":"Socket connected: S6zHWfAiiUznp6tvAAAC (User: 6990e1f4f3101e3b732c279b)","timestamp":"2026-02-15 03:14:39"}
+{"level":"info","message":"Socket connected: KXfzeI6aJM-2EO5XAAAD (User: 6990e4d2f169bd9708deb187)","timestamp":"2026-02-15 03:14:39"}
+{"level":"info","message":"Socket connected: eFUC8YcVswuaUeQ9AAAF (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:14:39"}
+{"level":"info","message":"Socket connected: Qj6rTITJoqaa5zGKAAAH (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:14:39"}
+{"level":"debug","message":"Socket disconnected","socketId":"eFUC8YcVswuaUeQ9AAAF","timestamp":"2026-02-15 03:17:00","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"Qj6rTITJoqaa5zGKAAAH","timestamp":"2026-02-15 03:17:00","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"S6zHWfAiiUznp6tvAAAC","timestamp":"2026-02-15 03:17:41","userId":"6990e1f4f3101e3b732c279b"}
+{"level":"debug","message":"Socket disconnected","socketId":"KXfzeI6aJM-2EO5XAAAD","timestamp":"2026-02-15 03:17:41","userId":"6990e4d2f169bd9708deb187"}
+{"level":"info","message":"Socket connected: WZb4AFgYN1nluz_QAAAL (User: 6990e1f4f3101e3b732c279b)","timestamp":"2026-02-15 03:17:48"}
+{"level":"info","message":"Socket connected: tmSIBJu3SMlQjVQMAAAN (User: 6990e4d2f169bd9708deb187)","timestamp":"2026-02-15 03:17:49"}
+{"level":"info","message":"Socket connected: Auv1NAr2V-ntK9XTAAAQ (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:17:50"}
+{"level":"info","message":"Socket connected: 9b1hMSbHE_9KWldOAAAR (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:17:50"}
+{"level":"debug","message":"Socket disconnected","socketId":"9b1hMSbHE_9KWldOAAAR","timestamp":"2026-02-15 03:17:53","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: AKG5ciMWInAnD2O4AAAT (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:18:02"}
+{"chunks":3,"level":"info","message":"Document already cached, skipping ingestion","timestamp":"2026-02-15 03:18:25","url":"https://expressjs.com/en/guide/using-middleware.html"}
+{"level":"debug","message":"Emitted stage","stage":"enhancing_task","timestamp":"2026-02-15 03:18:25","userId":"69909b2d3626de25496815c9"}
+{"language":"typescript","level":"info","message":"Enhancing task","timestamp":"2026-02-15 03:18:25"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 03:18:25"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=879","timestamp":"2026-02-15 03:18:33"}
+{"level":"info","message":"Enhanced task into 3 variations","timestamp":"2026-02-15 03:18:33"}
+{"level":"debug","message":"Emitted stage","stage":"retrieving_docs","timestamp":"2026-02-15 03:18:33","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Emitted stage","stage":"generating_code","timestamp":"2026-02-15 03:18:33","userId":"69909b2d3626de25496815c9"}
+{"language":"typescript","level":"info","message":"Starting parallel code generation","timestamp":"2026-02-15 03:18:33"}
+{"level":"debug","message":"Azure call: model=gpt-4.1-mini attempt=1/3","timestamp":"2026-02-15 03:18:33"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 03:18:33"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=592","timestamp":"2026-02-15 03:18:38"}
+{"level":"debug","message":"Azure response: model=gpt-4.1-mini tokens=776","timestamp":"2026-02-15 03:18:40"}
+{"level":"info","message":"Code generation complete: 2 candidates produced","timestamp":"2026-02-15 03:18:40"}
+{"level":"debug","message":"Emitted stage","stage":"judging","timestamp":"2026-02-15 03:18:40","userId":"69909b2d3626de25496815c9"}
+{"count":2,"level":"info","message":"Judging candidates","timestamp":"2026-02-15 03:18:40"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 03:18:40"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=1511","timestamp":"2026-02-15 03:18:45"}
+{"level":"info","message":"Judge decided","selectedIndex":0,"timestamp":"2026-02-15 03:18:45","winnerScore":360}
+{"level":"debug","message":"Emitted stage","stage":"validating","timestamp":"2026-02-15 03:18:45","userId":"69909b2d3626de25496815c9"}
+{"issueCount":3,"level":"debug","message":"Static analysis complete","score":72,"timestamp":"2026-02-15 03:18:45"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 03:18:45"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=773","timestamp":"2026-02-15 03:18:49"}
+{"error":"The 'req.user' property is not defined in the Request interface, which may lead to a type error when accessing 'req.user.role' in the authorizeRoles middleware.","level":"debug","message":"Runtime validation complete","score":85,"timestamp":"2026-02-15 03:18:49"}
+{"level":"debug","message":"Emitted stage","stage":"security_audit","timestamp":"2026-02-15 03:18:49","userId":"69909b2d3626de25496815c9"}
+{"language":"typescript","level":"info","message":"Running security audit","timestamp":"2026-02-15 03:18:49"}
+{"level":"debug","message":"Azure call: model=o4-mini attempt=1/3","timestamp":"2026-02-15 03:18:49"}
+{"level":"debug","message":"Azure response: model=o4-mini tokens=2204","timestamp":"2026-02-15 03:18:59"}
+{"findings":4,"level":"info","message":"Security audit complete","risk":"low","score":90,"timestamp":"2026-02-15 03:18:59"}
+{"level":"debug","message":"Emitted stage","stage":"trace_mapping","timestamp":"2026-02-15 03:18:59","userId":"69909b2d3626de25496815c9"}
+{"codeBlocks":14,"docChunks":3,"level":"info","mappings":10,"message":"Trace mapping complete","timestamp":"2026-02-15 03:19:10"}
+{"level":"debug","message":"Emitted stage","stage":"scoring","timestamp":"2026-02-15 03:19:10","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Confidence calculated","score":189,"status":"verified","timestamp":"2026-02-15 03:19:10"}
+{"level":"debug","message":"Emitted stage","stage":"finalizing","timestamp":"2026-02-15 03:19:10","userId":"69909b2d3626de25496815c9"}
+{"confidence":189,"generationId":"6990eda9f7946a04bf03c27a","level":"info","message":"Pipeline complete","status":"verified","timestamp":"2026-02-15 03:19:10"}
+{"level":"debug","message":"Socket disconnected","socketId":"AKG5ciMWInAnD2O4AAAT","timestamp":"2026-02-15 03:19:47","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: GCMhuJXcDYY5EUpuAAAV (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:19:49"}
+{"level":"debug","message":"Socket disconnected","socketId":"GCMhuJXcDYY5EUpuAAAV","timestamp":"2026-02-15 03:19:51","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: al_8KEs566LXFte3AAAX (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:20:04"}
+{"level":"debug","message":"Socket disconnected","socketId":"al_8KEs566LXFte3AAAX","timestamp":"2026-02-15 03:20:19","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: BR0YMgzOF0qI-w2RAAAZ (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:20:28"}
+{"level":"debug","message":"Socket disconnected","socketId":"BR0YMgzOF0qI-w2RAAAZ","timestamp":"2026-02-15 03:20:36","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: Mw95SfI7b10u7b-2AAAb (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:20:50"}
+{"level":"debug","message":"Socket disconnected","socketId":"Mw95SfI7b10u7b-2AAAb","timestamp":"2026-02-15 03:21:05","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: -LocFTNnqw2ev8zvAAAd (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:21:15"}
+{"level":"debug","message":"Socket disconnected","socketId":"-LocFTNnqw2ev8zvAAAd","timestamp":"2026-02-15 03:21:20","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: NwBeu-3_WYdgzgSRAAAf (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:21:21"}
+{"level":"debug","message":"Socket disconnected","socketId":"Auv1NAr2V-ntK9XTAAAQ","timestamp":"2026-02-15 03:22:06","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"NwBeu-3_WYdgzgSRAAAf","timestamp":"2026-02-15 03:22:06","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: FsOiAngAa6HT-l_TAAAi (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:22:06"}
+{"level":"info","message":"Socket connected: rsSjyqnl2qkGmG5CAAAj (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:22:06"}
+{"level":"debug","message":"Socket disconnected","socketId":"FsOiAngAa6HT-l_TAAAi","timestamp":"2026-02-15 03:22:55","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"rsSjyqnl2qkGmG5CAAAj","timestamp":"2026-02-15 03:22:55","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: uoA8p4uMCBetuAuUAAAm (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:22:55"}
+{"level":"info","message":"Socket connected: CF62MUOMQB-qgKSbAAAn (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:22:55"}
+{"level":"debug","message":"Socket disconnected","socketId":"uoA8p4uMCBetuAuUAAAm","timestamp":"2026-02-15 03:24:34","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"CF62MUOMQB-qgKSbAAAn","timestamp":"2026-02-15 03:24:34","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: uKri5Y2DFPKU74FrAAAp (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:24:34"}
+{"level":"debug","message":"Socket disconnected","socketId":"tmSIBJu3SMlQjVQMAAAN","timestamp":"2026-02-15 03:24:34","userId":"6990e4d2f169bd9708deb187"}
+{"level":"debug","message":"Socket disconnected","socketId":"WZb4AFgYN1nluz_QAAAL","timestamp":"2026-02-15 03:24:34","userId":"6990e1f4f3101e3b732c279b"}
+{"level":"debug","message":"Socket disconnected","socketId":"uKri5Y2DFPKU74FrAAAp","timestamp":"2026-02-15 03:25:00","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: rOUB_fmWKnrf_Ya3AAAr (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:25:00"}
+{"level":"debug","message":"Socket disconnected","socketId":"rOUB_fmWKnrf_Ya3AAAr","timestamp":"2026-02-15 03:25:17","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: GKaH4bVT_jJ7uACwAAAt (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:25:17"}
+{"level":"debug","message":"Socket disconnected","socketId":"GKaH4bVT_jJ7uACwAAAt","timestamp":"2026-02-15 03:25:27","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: dtnnl2a-A1xtl6m5AAAv (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:25:30"}
+{"level":"debug","message":"Socket disconnected","socketId":"dtnnl2a-A1xtl6m5AAAv","timestamp":"2026-02-15 03:25:35","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: zgBS5gAiKQvMV-POAAAx (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:25:41"}
+{"level":"debug","message":"Socket disconnected","socketId":"zgBS5gAiKQvMV-POAAAx","timestamp":"2026-02-15 03:25:43","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: h1L-H6tIvbCLr8sHAAAz (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:25:52"}
+{"level":"debug","message":"Socket disconnected","socketId":"h1L-H6tIvbCLr8sHAAAz","timestamp":"2026-02-15 03:25:54","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: 50O7WTRRRenVD1R_AAA1 (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:25:54"}
+{"level":"debug","message":"Socket disconnected","socketId":"50O7WTRRRenVD1R_AAA1","timestamp":"2026-02-15 03:25:56","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: lA6Q-uQXayQ9jt9UAAA3 (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:25:57"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 03:26:49"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 03:26:49"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 03:27:01"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 03:27:01"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 03:27:01"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 03:27:01"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 03:27:01"}
+{"level":"info","message":"Socket connected: diX74y93eu3vyjkLAAAB (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:27:01"}
+{"level":"debug","message":"Socket disconnected","socketId":"diX74y93eu3vyjkLAAAB","timestamp":"2026-02-15 03:27:02","userId":"69909b2d3626de25496815c9"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 03:27:13"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 03:27:13"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 03:27:14"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 03:27:14"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 03:27:14"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 03:27:14"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 03:27:14"}
+{"level":"info","message":"Socket connected: 5Lmw_UdIz0VIz_OuAAAB (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:27:14"}
+{"level":"debug","message":"Socket disconnected","socketId":"5Lmw_UdIz0VIz_OuAAAB","timestamp":"2026-02-15 03:28:39","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: prwwR0DZdC60ybhGAAAD (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:28:41"}
+{"level":"debug","message":"Socket disconnected","socketId":"prwwR0DZdC60ybhGAAAD","timestamp":"2026-02-15 03:28:45","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: imxSXqBkLpfxMKP1AAAF (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:28:47"}
+{"level":"debug","message":"Socket disconnected","socketId":"imxSXqBkLpfxMKP1AAAF","timestamp":"2026-02-15 03:28:49","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: 3ZEKkQxc5Lvh7uo6AAAH (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:28:49"}
+{"level":"debug","message":"Socket disconnected","socketId":"3ZEKkQxc5Lvh7uo6AAAH","timestamp":"2026-02-15 03:30:40","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: K0zYidfVec6Zlm3YAAAJ (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:31:53"}
+{"level":"debug","message":"Socket disconnected","socketId":"K0zYidfVec6Zlm3YAAAJ","timestamp":"2026-02-15 03:31:55","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: FAbsG75c1f9vQmupAAAL (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:31:57"}
+{"level":"debug","message":"Socket disconnected","socketId":"FAbsG75c1f9vQmupAAAL","timestamp":"2026-02-15 03:32:14","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: sHfGUIA0MvKWyFIuAAAN (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:32:14"}
+{"level":"debug","message":"Socket disconnected","socketId":"sHfGUIA0MvKWyFIuAAAN","timestamp":"2026-02-15 03:32:16","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: EpiwJ3PharQwuZtpAAAP (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:32:16"}
+{"level":"debug","message":"Socket disconnected","socketId":"EpiwJ3PharQwuZtpAAAP","timestamp":"2026-02-15 03:33:32","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: AUHP6rDJVsWZt-9vAAAR (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:35:12"}
+{"language":"typescript","level":"info","message":"Enhancing task","timestamp":"2026-02-15 03:36:08"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 03:36:08"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=1055","timestamp":"2026-02-15 03:36:18"}
+{"level":"info","message":"Enhanced task into 3 variations","timestamp":"2026-02-15 03:36:18"}
+{"level":"info","message":"Fetching document","timestamp":"2026-02-15 03:36:28","url":"https://expressjs.com/en/guide/routing.html"}
+{"chunks":3,"level":"info","message":"Document chunked","timestamp":"2026-02-15 03:36:29","url":"https://expressjs.com/en/guide/routing.html","version":"latest"}
+{"chunks":3,"docId":"53c165f6-be03-49c8-bba9-8b0f12c667cf","level":"info","message":"Document ingestion complete","timestamp":"2026-02-15 03:36:38","url":"https://expressjs.com/en/guide/routing.html"}
+{"level":"debug","message":"Emitted stage","stage":"enhancing_task","timestamp":"2026-02-15 03:36:41","userId":"69909b2d3626de25496815c9"}
+{"language":"typescript","level":"info","message":"Enhancing task","timestamp":"2026-02-15 03:36:41"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 03:36:41"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=970","timestamp":"2026-02-15 03:36:50"}
+{"level":"info","message":"Enhanced task into 3 variations","timestamp":"2026-02-15 03:36:50"}
+{"level":"debug","message":"Emitted stage","stage":"retrieving_docs","timestamp":"2026-02-15 03:36:50","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Emitted stage","stage":"generating_code","timestamp":"2026-02-15 03:36:50","userId":"69909b2d3626de25496815c9"}
+{"language":"typescript","level":"info","message":"Starting parallel code generation","timestamp":"2026-02-15 03:36:50"}
+{"level":"debug","message":"Azure call: model=gpt-4.1-mini attempt=1/3","timestamp":"2026-02-15 03:36:50"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 03:36:50"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=637","timestamp":"2026-02-15 03:36:56"}
+{"level":"debug","message":"Azure response: model=gpt-4.1-mini tokens=769","timestamp":"2026-02-15 03:36:59"}
+{"level":"info","message":"Code generation complete: 2 candidates produced","timestamp":"2026-02-15 03:36:59"}
+{"level":"debug","message":"Emitted stage","stage":"judging","timestamp":"2026-02-15 03:36:59","userId":"69909b2d3626de25496815c9"}
+{"count":2,"level":"info","message":"Judging candidates","timestamp":"2026-02-15 03:36:59"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 03:36:59"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=1543","timestamp":"2026-02-15 03:37:04"}
+{"level":"info","message":"Judge decided","selectedIndex":0,"timestamp":"2026-02-15 03:37:04","winnerScore":86.25}
+{"level":"debug","message":"Emitted stage","stage":"validating","timestamp":"2026-02-15 03:37:04","userId":"69909b2d3626de25496815c9"}
+{"issueCount":3,"level":"debug","message":"Static analysis complete","score":70,"timestamp":"2026-02-15 03:37:04"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 03:37:04"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=735","timestamp":"2026-02-15 03:37:07"}
+{"error":null,"level":"debug","message":"Runtime validation complete","score":95,"timestamp":"2026-02-15 03:37:07"}
+{"level":"debug","message":"Emitted stage","stage":"security_audit","timestamp":"2026-02-15 03:37:07","userId":"69909b2d3626de25496815c9"}
+{"language":"typescript","level":"info","message":"Running security audit","timestamp":"2026-02-15 03:37:07"}
+{"level":"debug","message":"Azure call: model=o4-mini attempt=1/3","timestamp":"2026-02-15 03:37:07"}
+{"level":"debug","message":"Azure response: model=o4-mini tokens=2121","timestamp":"2026-02-15 03:37:17"}
+{"findings":3,"level":"info","message":"Security audit complete","risk":"low","score":93,"timestamp":"2026-02-15 03:37:17"}
+{"level":"debug","message":"Emitted stage","stage":"trace_mapping","timestamp":"2026-02-15 03:37:17","userId":"69909b2d3626de25496815c9"}
+{"codeBlocks":15,"docChunks":3,"level":"info","mappings":11,"message":"Trace mapping complete","timestamp":"2026-02-15 03:37:25"}
+{"level":"debug","message":"Emitted stage","stage":"scoring","timestamp":"2026-02-15 03:37:25","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Confidence calculated","score":82,"status":"verified","timestamp":"2026-02-15 03:37:25"}
+{"level":"debug","message":"Emitted stage","stage":"finalizing","timestamp":"2026-02-15 03:37:25","userId":"69909b2d3626de25496815c9"}
+{"confidence":82,"generationId":"6990f1ee48f3c107ad33580b","level":"info","message":"Pipeline complete","status":"verified","timestamp":"2026-02-15 03:37:26"}
+{"level":"debug","message":"Socket disconnected","socketId":"AUHP6rDJVsWZt-9vAAAR","timestamp":"2026-02-15 03:38:28","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: W0L1KXtj8LE6JVTlAAAT (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:39:05"}
+{"level":"debug","message":"Socket disconnected","socketId":"W0L1KXtj8LE6JVTlAAAT","timestamp":"2026-02-15 03:39:12","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: -c6VJvvjpmmw5aQRAAAV (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:46:29"}
+{"level":"debug","message":"Socket disconnected","socketId":"-c6VJvvjpmmw5aQRAAAV","timestamp":"2026-02-15 03:46:31","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: vPbEn18ixWr0DP4JAAAX (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:47:29"}
+{"level":"debug","message":"Socket disconnected","socketId":"vPbEn18ixWr0DP4JAAAX","timestamp":"2026-02-15 03:47:33","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: SIpkjuDpnq0qdbjXAAAZ (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 03:47:40"}
+{"level":"info","message":"Socket connected: HK8AdDLkFjyca4JFAAAb (User: 6990e1f4f3101e3b732c279b)","timestamp":"2026-02-15 04:02:16"}
+{"level":"debug","message":"Socket disconnected","socketId":"HK8AdDLkFjyca4JFAAAb","timestamp":"2026-02-15 04:02:17","userId":"6990e1f4f3101e3b732c279b"}
+{"level":"debug","message":"Socket disconnected","socketId":"SIpkjuDpnq0qdbjXAAAZ","timestamp":"2026-02-15 04:27:16","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: yjTGkXAsqB-Ne-CeAAAd (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 04:27:17"}
+{"level":"debug","message":"Socket disconnected","socketId":"yjTGkXAsqB-Ne-CeAAAd","timestamp":"2026-02-15 04:28:07","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: 1lb3sZlbI09SvxPRAAAf (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 04:28:10"}
+{"level":"info","message":"Socket connected: it0TtTgmZhPCEsxaAAAh (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 04:28:45"}
+{"level":"debug","message":"Socket disconnected","socketId":"1lb3sZlbI09SvxPRAAAf","timestamp":"2026-02-15 04:29:53","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"it0TtTgmZhPCEsxaAAAh","timestamp":"2026-02-15 04:29:58","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: W5bx4E3VQoDXzVvNAAAj (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 04:30:01"}
+{"level":"debug","message":"Socket disconnected","socketId":"W5bx4E3VQoDXzVvNAAAj","timestamp":"2026-02-15 04:30:54","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: xohrWQ5aSjHiLoeUAAAl (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 04:30:58"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 04:38:16"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 04:38:16"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 04:38:17"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 04:38:17"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 04:38:17"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 04:38:17"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 04:38:17"}
+{"level":"info","message":"Socket connected: DT1s-Q_7kW6T7gjxAAAB (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 04:38:18"}
+{"level":"debug","message":"Socket disconnected","socketId":"DT1s-Q_7kW6T7gjxAAAB","timestamp":"2026-02-15 04:38:36","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: wnS9qAn1WpBqn0-4AAAD (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 04:41:20"}
+{"level":"debug","message":"User joined collab room","room":"collab_6990f1ee48f3c107ad33580b","timestamp":"2026-02-15 04:41:20","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: ftoHkwHzYIxxXT9HAAAF (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 04:41:20"}
+{"level":"debug","message":"Socket disconnected","socketId":"wnS9qAn1WpBqn0-4AAAD","timestamp":"2026-02-15 04:41:55","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"ftoHkwHzYIxxXT9HAAAF","timestamp":"2026-02-15 04:41:55","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: F0aX9okQ2cTWuBoOAAAH (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 04:41:55"}
+{"level":"debug","message":"Socket disconnected","socketId":"F0aX9okQ2cTWuBoOAAAH","timestamp":"2026-02-15 04:42:17","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: lK1o99mwAv1f1ODoAAAJ (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 04:42:19"}
+{"level":"debug","message":"Socket disconnected","socketId":"lK1o99mwAv1f1ODoAAAJ","timestamp":"2026-02-15 04:42:21","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: D4cz1TfcQLkb5raHAAAL (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 04:42:30"}
+{"level":"debug","message":"User joined collab room","room":"collab_6990eda9f7946a04bf03c27a","timestamp":"2026-02-15 04:42:30","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: hbwGKQnX5XFVWgZmAAAN (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 04:42:30"}
+{"level":"debug","message":"Socket disconnected","socketId":"D4cz1TfcQLkb5raHAAAL","timestamp":"2026-02-15 04:42:54","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"hbwGKQnX5XFVWgZmAAAN","timestamp":"2026-02-15 04:42:54","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: MIdbzvKob4WRpAZPAAAP (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 04:42:54"}
+{"level":"debug","message":"Socket disconnected","socketId":"MIdbzvKob4WRpAZPAAAP","timestamp":"2026-02-15 04:48:56","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: yosetH3gTeG4IpmoAAAR (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 04:49:32"}
+{"level":"debug","message":"Socket disconnected","socketId":"yosetH3gTeG4IpmoAAAR","timestamp":"2026-02-15 04:49:37","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: lA22JN-0EDx5vBYfAAAT (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 04:50:29"}
+{"level":"debug","message":"Socket disconnected","socketId":"lA22JN-0EDx5vBYfAAAT","timestamp":"2026-02-15 04:50:45","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: 0Z5-iUUOkHED4ge7AAAV (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 04:55:12"}
+{"level":"debug","message":"Socket disconnected","socketId":"0Z5-iUUOkHED4ge7AAAV","timestamp":"2026-02-15 04:55:13","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: W_YRhV2iZzPLRWpIAAAX (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 04:56:13"}
+{"level":"debug","message":"User joined collab room","room":"collab_6990f1ee48f3c107ad33580b","timestamp":"2026-02-15 04:56:13","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: ENEbBVM05Grln1Y_AAAZ (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 04:56:13"}
+{"level":"debug","message":"Socket disconnected","socketId":"W_YRhV2iZzPLRWpIAAAX","timestamp":"2026-02-15 04:57:38","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"ENEbBVM05Grln1Y_AAAZ","timestamp":"2026-02-15 04:57:38","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: MZJvlbKeRqrxGt30AAAb (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 04:57:40"}
+{"chunks":3,"level":"info","message":"Document already cached, skipping ingestion","timestamp":"2026-02-15 04:58:20","url":"https://expressjs.com/en/guide/routing.html"}
+{"level":"debug","message":"Emitted stage","stage":"enhancing_task","timestamp":"2026-02-15 04:58:21","userId":"69909b2d3626de25496815c9"}
+{"language":"typescript","level":"info","message":"Enhancing task","timestamp":"2026-02-15 04:58:21"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 04:58:21"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=969","timestamp":"2026-02-15 04:58:28"}
+{"level":"info","message":"Enhanced task into 3 variations","timestamp":"2026-02-15 04:58:28"}
+{"level":"debug","message":"Emitted stage","stage":"retrieving_docs","timestamp":"2026-02-15 04:58:28","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Emitted stage","stage":"generating_code","timestamp":"2026-02-15 04:58:28","userId":"69909b2d3626de25496815c9"}
+{"language":"typescript","level":"info","message":"Starting parallel code generation","timestamp":"2026-02-15 04:58:28"}
+{"level":"debug","message":"Azure call: model=gpt-4.1-mini attempt=1/3","timestamp":"2026-02-15 04:58:28"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 04:58:28"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=651","timestamp":"2026-02-15 04:58:33"}
+{"level":"debug","message":"Azure response: model=gpt-4.1-mini tokens=808","timestamp":"2026-02-15 04:58:34"}
+{"level":"info","message":"Code generation complete: 2 candidates produced","timestamp":"2026-02-15 04:58:34"}
+{"level":"debug","message":"Emitted stage","stage":"judging","timestamp":"2026-02-15 04:58:34","userId":"69909b2d3626de25496815c9"}
+{"count":2,"level":"info","message":"Judging candidates","timestamp":"2026-02-15 04:58:34"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 04:58:34"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=1594","timestamp":"2026-02-15 04:58:37"}
+{"level":"info","message":"Judge decided","selectedIndex":0,"timestamp":"2026-02-15 04:58:37","winnerScore":90}
+{"level":"debug","message":"Emitted stage","stage":"validating","timestamp":"2026-02-15 04:58:37","userId":"69909b2d3626de25496815c9"}
+{"issueCount":2,"level":"debug","message":"Static analysis complete","score":77,"timestamp":"2026-02-15 04:58:37"}
+{"level":"debug","message":"Azure call: model=gpt-4o-mini attempt=1/3","timestamp":"2026-02-15 04:58:37"}
+{"level":"debug","message":"Azure response: model=gpt-4o-mini tokens=774","timestamp":"2026-02-15 04:58:38"}
+{"error":null,"level":"debug","message":"Runtime validation complete","score":95,"timestamp":"2026-02-15 04:58:38"}
+{"level":"debug","message":"Emitted stage","stage":"security_audit","timestamp":"2026-02-15 04:58:38","userId":"69909b2d3626de25496815c9"}
+{"language":"typescript","level":"info","message":"Running security audit","timestamp":"2026-02-15 04:58:38"}
+{"level":"debug","message":"Azure call: model=o4-mini attempt=1/3","timestamp":"2026-02-15 04:58:38"}
+{"attempt":1,"error":"Empty response from Azure OpenAI","level":"error","message":"Azure call failed: model=o4-mini","timestamp":"2026-02-15 04:58:51"}
+{"error":"Azure API error (o4-mini): Empty response from Azure OpenAI","level":"error","message":"Security audit failed","timestamp":"2026-02-15 04:58:51"}
+{"level":"debug","message":"Emitted stage","stage":"trace_mapping","timestamp":"2026-02-15 04:58:51","userId":"69909b2d3626de25496815c9"}
+{"codeBlocks":16,"docChunks":3,"level":"info","mappings":12,"message":"Trace mapping complete","timestamp":"2026-02-15 04:58:57"}
+{"level":"debug","message":"Emitted stage","stage":"scoring","timestamp":"2026-02-15 04:58:57","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Confidence calculated","score":85,"status":"verified","timestamp":"2026-02-15 04:58:57"}
+{"level":"debug","message":"Emitted stage","stage":"finalizing","timestamp":"2026-02-15 04:58:57","userId":"69909b2d3626de25496815c9"}
+{"confidence":85,"generationId":"699105145e8af8c4bb7e5356","level":"info","message":"Pipeline complete","status":"verified","timestamp":"2026-02-15 04:58:57"}
+{"level":"debug","message":"Socket disconnected","socketId":"MZJvlbKeRqrxGt30AAAb","timestamp":"2026-02-15 04:58:57","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: s2vcSs2jNzPvG9R8AAAd (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 04:58:57"}
+{"level":"debug","message":"User joined collab room","room":"collab_699105145e8af8c4bb7e5356","timestamp":"2026-02-15 04:58:57","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: ZcfK19XK0L5z_FhZAAAf (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 04:58:57"}
+{"level":"debug","message":"User joined collab room","room":"collab_699105145e8af8c4bb7e5356","timestamp":"2026-02-15 04:58:57","userId":"69909b2d3626de25496815c9"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 05:04:37"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 05:04:37"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 05:04:38"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 05:04:38"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 05:04:38"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 05:04:38"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 05:04:38"}
+{"level":"info","message":"Socket connected: bkSmJgRBGP33krt4AAAB (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 05:17:28"}
+{"level":"debug","message":"Socket disconnected","socketId":"bkSmJgRBGP33krt4AAAB","timestamp":"2026-02-15 05:17:30","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: f59S2S6_-pWB30OEAAAD (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 05:19:47"}
+{"level":"debug","message":"Socket disconnected","socketId":"f59S2S6_-pWB30OEAAAD","timestamp":"2026-02-15 05:19:49","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: OrFJKa7uq8gOB46pAAAF (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 05:19:52"}
+{"level":"debug","message":"Socket disconnected","socketId":"OrFJKa7uq8gOB46pAAAF","timestamp":"2026-02-15 05:19:53","userId":"69909b2d3626de25496815c9"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 05:27:03"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 05:27:03"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 05:27:05"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 05:27:05"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 05:27:05"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 05:27:05"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 05:27:05"}
+{"level":"info","message":"Socket connected: h4-ca-rtwUkQ1QpRAAAB (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 05:41:04"}
+{"level":"debug","message":"Socket disconnected","socketId":"h4-ca-rtwUkQ1QpRAAAB","timestamp":"2026-02-15 05:41:06","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: j9jlrz-GvmSak3HgAAAD (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 05:41:11"}
+{"level":"debug","message":"Socket disconnected","socketId":"j9jlrz-GvmSak3HgAAAD","timestamp":"2026-02-15 05:41:45","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: SVVlWyNPrZFEvvPzAAAF (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 05:42:34"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 05:45:19"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 05:45:19"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 05:45:20"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 05:45:20"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 05:45:20"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 05:45:20"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 05:45:20"}
+{"level":"info","message":"Socket connected: PRQeQogQRsDQ0jyDAAAB (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 05:45:20"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 05:45:55"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 05:45:55"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 05:45:56"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 05:45:56"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 05:45:56"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 05:45:56"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 05:45:56"}
+{"level":"info","message":"Socket connected: 8V6ECe7iJ9XMOmQ_AAAB (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 05:45:57"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 05:46:11"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 05:46:11"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 05:46:12"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 05:46:12"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 05:46:12"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 05:46:12"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 05:46:12"}
+{"level":"info","message":"Socket connected: VMMTre9YOc9vw-WrAAAB (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 05:46:14"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 05:46:25"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 05:46:25"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 05:46:26"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 05:46:26"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 05:46:26"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 05:46:26"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 05:46:26"}
+{"level":"info","message":"Socket connected: s_xjZq2UdVkuzqw7AAAB (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 05:46:28"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 05:46:49"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 05:46:49"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 05:46:49"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 05:46:49"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 05:46:49"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 05:46:49"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 05:46:49"}
+{"level":"info","message":"Socket connected: FRxRzGOKyxT4MPeiAAAB (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 05:46:50"}
+{"level":"debug","message":"Socket disconnected","socketId":"FRxRzGOKyxT4MPeiAAAB","timestamp":"2026-02-15 05:47:16","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: IWf3ahsk5FMMIlBvAAAD (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 05:47:17"}
+{"level":"debug","message":"Socket disconnected","socketId":"IWf3ahsk5FMMIlBvAAAD","timestamp":"2026-02-15 05:47:18","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: RTKmZWJipocGs7Q2AAAF (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 05:47:33"}
+{"level":"debug","message":"User joined collab room","room":"collab_699105395e8af8c4bb7e5371","timestamp":"2026-02-15 05:47:33","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: w-_9sYz8YRJMLDnEAAAH (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 05:47:33"}
+{"level":"debug","message":"Socket disconnected","socketId":"RTKmZWJipocGs7Q2AAAF","timestamp":"2026-02-15 05:47:37","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"w-_9sYz8YRJMLDnEAAAH","timestamp":"2026-02-15 05:47:37","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: pQXA8YP9AMduJylPAAAJ (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 05:48:12"}
+{"level":"debug","message":"Socket disconnected","socketId":"pQXA8YP9AMduJylPAAAJ","timestamp":"2026-02-15 05:48:15","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: EJ6jtYgvCGbhqxhHAAAL (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 05:50:07"}
+{"level":"debug","message":"User joined collab room","room":"collab_699105395e8af8c4bb7e5371","timestamp":"2026-02-15 05:50:07","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: _HZJGm_g0KBkYBM8AAAN (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 05:50:07"}
+{"level":"debug","message":"Socket disconnected","socketId":"EJ6jtYgvCGbhqxhHAAAL","timestamp":"2026-02-15 05:50:08","userId":"69909b2d3626de25496815c9"}
+{"level":"debug","message":"Socket disconnected","socketId":"_HZJGm_g0KBkYBM8AAAN","timestamp":"2026-02-15 05:50:08","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: 8HkAg6AmcJNYyO9-AAAP (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 05:50:11"}
+{"azureEndpoint":"https://doc2code.services.ai.a...","level":"info","message":"✅ Environment validated","port":"5000","timestamp":"2026-02-15 09:54:18"}
+{"level":"info","message":"Socket.IO initialized","timestamp":"2026-02-15 09:54:18"}
+{"level":"info","message":"✅ Connected to MongoDB Atlas","timestamp":"2026-02-15 09:54:19"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-02-15 09:54:19"}
+{"level":"info","message":"📡 API: http://localhost:5000/api","timestamp":"2026-02-15 09:54:19"}
+{"level":"info","message":"🧠 Engine: http://localhost:5000/api/engine","timestamp":"2026-02-15 09:54:19"}
+{"level":"info","message":"🔌 WebSocket: ws://localhost:5000","timestamp":"2026-02-15 09:54:19"}
+{"level":"info","message":"Socket connected: QHpBrtkODLW9CpOaAAAB (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 09:54:34"}
+{"level":"debug","message":"Socket disconnected","socketId":"QHpBrtkODLW9CpOaAAAB","timestamp":"2026-02-15 09:54:50","userId":"69909b2d3626de25496815c9"}
+{"level":"info","message":"Socket connected: eXgassw5PyElOrvRAAAD (User: 69909b2d3626de25496815c9)","timestamp":"2026-02-15 09:55:12"}
